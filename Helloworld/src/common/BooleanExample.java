@@ -13,6 +13,7 @@ public static void main(String[] args) {
     		System.out.println(var1 +"=> 참일 경우에");
     	else	
     		System.out.println(var1 +"=> 거짓일 경우에");
-    	}
+    	System.out.println("End of program");	
+    }
 	}
 }
