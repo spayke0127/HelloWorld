@@ -15,8 +15,8 @@ public class OperatorExmaple {
 ////		System.out.println("결과값은: " + result);
 //		System.out.println("method 결과값은: " + result);
 ////메소드값 알아보기
-	}
-
+	
+}
 	public	static	void multi(int a, int b) {
 		int result = a * b;
 		System.out.println("method 결과값은: " + result);

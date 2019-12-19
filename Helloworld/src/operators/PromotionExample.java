@@ -1,4 +1,4 @@
-package common;
+package operators;
 //62p문제;
 public class PromotionExample {
 	public static void main(String[] args) {

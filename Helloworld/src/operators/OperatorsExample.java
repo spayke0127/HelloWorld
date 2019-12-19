@@ -1,4 +1,4 @@
-package common;
+package operators;
 
 public class OperatorsExample {
 	public static void main(String[] args) {
