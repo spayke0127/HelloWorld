@@ -13,12 +13,12 @@ public class IfExample {
 			System.out.println("등급은 B");
 			break;
 			case 7:
-				System.out.println("점수가 70보다 작습니다");
-				System.out.println("등급은 C");
+			System.out.println("점수가 70보다 작습니다");
+			System.out.println("등급은 C");
 			break;
 			default:	
-				System.out.println("점수가 70보다 작습니다");
-				System.out.println("등급은 D");
+			System.out.println("점수가 70보다 작습니다");
+			System.out.println("등급은 D");
 }
 	}
 }
