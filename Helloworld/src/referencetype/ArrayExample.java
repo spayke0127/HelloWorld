@@ -27,7 +27,7 @@ public class ArrayExample {
 //			if (1 % 5 == 4)
 //				System.out.print();
 		}
-	}
+
 
 	public static void exam02() {
 
