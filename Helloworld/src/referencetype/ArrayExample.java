@@ -12,7 +12,7 @@ public class ArrayExample {
 		System.out.print("배열의 크기 : " num.length);
 		summary += num[i]	;
 		
-		
+			
 		
 		 { // 공식적으로 익혀 놔야함
 			num[i] = i + 1; // 인덱스 반복문

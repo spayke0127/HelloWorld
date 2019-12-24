@@ -11,9 +11,9 @@ public class MethodExample {
 	}
 
 	double s1 = calculator(3, 4, "+");// s1의 출력값
-	System.out.println("s1은"+s1);
+//	System.out.println("s1은"+s1);
 
-	
+
 
 	public static double calculator(double a, double b, String cal) {
 		double result = 1;

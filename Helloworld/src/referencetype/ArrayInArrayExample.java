@@ -11,8 +11,8 @@ public class ArrayInArrayExample {
 		int num = 1;
 		for(int j=0; j<5; j++) {
 			for(int i=0; i<4; i++) {
-			//intAry[j][i] = num++;
-			intAry[j][i] = num--;
+			intAry[j][i] = num++;
+//			intAry[j][i] = num--;
 		}
 	}
 		for(int j=0; j<5; j++) {
