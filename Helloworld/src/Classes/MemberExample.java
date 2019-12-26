@@ -59,7 +59,6 @@ execute();
 					// id(x), pw(x) => "없는 id입니다.'
 			}
 		}
-	}
 
 	public  void createMember() {
 		Member mem = new Member();
