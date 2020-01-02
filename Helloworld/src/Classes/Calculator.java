@@ -20,5 +20,6 @@ public class Calculator {
 
 	Void println(String str) {
 		System.out.println(str);
+		return null;
 	}
 }

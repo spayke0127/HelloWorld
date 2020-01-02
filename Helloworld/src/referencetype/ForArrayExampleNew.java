@@ -2,13 +2,13 @@ package referencetype;
 
 //1~100까지의 수 7의 배수 출력
 
-public class ForArrayExample03 {
+public class ForArrayExampleNew{
 	public static void main(String[] args) {
 
 //		int sum = 0;
 
 		for (int i = 1; i <= 100; i++) {
-			 if (i%7 == 0) {
+			 if (i%3 == 0 && i%7 == 0) {
 			
 					
 //				sum += i; 

@@ -18,9 +18,8 @@ public class Calculators {
 	static int minus(int a, int b) {
 		return a - b;
 	}
-	}
-
-	public class CalculatorsExample {
+//	}
+//	public class CalculatorExample {
 		public static void main(String[] args) {
 			Calculators cal = new Calculators();
 			cal.color = "White";

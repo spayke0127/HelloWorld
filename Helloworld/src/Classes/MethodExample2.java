@@ -3,7 +3,7 @@ package Classes;
 public class MethodExample2 {
 	public static void main(String[] args) {
 
-		double result = sum(3.3, 4.5);
+		double result = su(3.3, 4.5);
 		System.out.println("결과는 " + result);
 		
 		int[] intAry = { 2, 3, 4, 5, 6, 7 };
@@ -36,5 +36,6 @@ public static void printString(int x, String str) {
 	for(int j= 1; j <= i; j++ ) {
 		System.out.println(str);
 	}
-		
+	}	
+}
 }

@@ -2,10 +2,10 @@ package common;
 
 public class BooleanForExample {
 	public static void main(String[] args) {
-		int var1 = 56 ;
+		int var1 = 120 ;
 		var1 = 10;
 		for (int i = 0; i < 10; i++) {
-			for (int i = 0; i < 10; i++) {
+			for (int i1 = 0; i1 < 10; i1++) {
 			}
 		
 			}			

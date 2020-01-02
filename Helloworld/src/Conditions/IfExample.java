@@ -15,13 +15,32 @@ public class IfExample {
 //			System.out.println("점수가 90보다 작습니다");
 //		}System.out.println("등급은 B");
 //			
-	
+
+			String name = "";
+			int kor, eng, mat;
+			
+			System.out.print("Input name : ");	name = br.readLine();
+			System.out.print("kor : ");	kor = Integer.parseInt(br.readLine());
+			System.out.print("eng : ");	eng = Integer.parseInt(br.readLine());
+			System.out.print("mat : ");	mat = Integer.parseInt(br.readLine());
+			
+			int sum = kor + eng + mat;
+			double avg = (double)sum / 3;
+			
+			System.out.println("이름 : " + name);
+			System.out.println("합계점수 : " + sum);
+			System.out.printf("평균점수 : %.1f", avg);
+		}
+
+	}
  	else { //if 부분말고 다른조건걸떄 else
  		if (score < 70) { //if부분 지워봐바
 		System.out.println("점수가 80보다 작습니다");
 		System.out.println("등급은 C");	
 		
 		} 		//else if (score < 90)...하는 또다른방법도 있다.
+ 	
+
  	}
 	}
 }	
