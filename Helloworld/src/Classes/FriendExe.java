@@ -8,6 +8,8 @@ public class FriendExe {
 
 	private static Scanner sc = new Scanner(System.in);
 
+	private static int selectNo4;
+
 public static void main(String[] args) {
 
 	boolean run = true;
@@ -39,6 +41,7 @@ public static void main(String[] args) {
 			int selectNo2 = sc.nextInt();
 
 			sc.nextLine();
+			int selectNo3 = 0;
 				if (selectNo1 == 1) {//입력
 
 						createUnivFriend();

@@ -16,7 +16,12 @@ public class OperatorExmaple {
 //		System.out.println("method 결과값은: " + result);
 ////메소드값 알아보기
 	
-}
+private static void sum(int i, int j) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
 	public	static	void multi(int a, int b) {
 		int result = a * b;
 		System.out.println("method 결과값은: " + result);

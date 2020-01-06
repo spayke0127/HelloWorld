@@ -1,20 +1,15 @@
 
-package classes;
+package Classes;
 
- //Friend 수정본
-
+//Friend 수정본
 
 import java.util.Scanner;
 
- 
-
-public class FriendExe {
+public class FriendNew {
 
 	private static Friend[] friendList = new Friend[100];
 
 	private static Scanner sc = new Scanner(System.in);
-
- 
 
 	public void frienddba() {
 
@@ -35,8 +30,6 @@ public class FriendExe {
 			System.out.println("선택 >> ");
 
 			int selectNo = sc.nextInt();
-
- 
 
 			if (selectNo == 1) {
 
@@ -86,15 +79,11 @@ public class FriendExe {
 
 			}
 
- 
-
 			else if (selectNo == 3) {
 
 				nameSearch();
 
 			}
-
- 
 
 			else if (selectNo == 4) {
 
@@ -108,8 +97,6 @@ public class FriendExe {
 
 	}
 
- 
-
 	private static void nameSearch() {
 
 		System.out.println("이름 입력: ");
@@ -121,8 +108,6 @@ public class FriendExe {
 		System.out.println(findFriend(name));
 
 	}
-
- 
 
 	static Friend findFriend(String name) {
 
@@ -150,11 +135,7 @@ public class FriendExe {
 
 		return flist;
 
- 
-
 	}
-
- 
 
 	private static void friendList() {
 
@@ -169,8 +150,6 @@ public class FriendExe {
 		}
 
 	}
-
- 
 
 	private static void createFinfo() {
 
@@ -197,8 +176,6 @@ public class FriendExe {
 		}
 
 	}
-
- 
 
 	private static void createCfinfo() {
 
@@ -234,8 +211,6 @@ public class FriendExe {
 
 	}
 
- 
-
 	private static void createUfinfo() {
 
 		System.out.println("이름 입력: ");
@@ -254,7 +229,7 @@ public class FriendExe {
 
 		String major = sc.nextLine();
 
-		UnivFriend flist = new UnivFriend(name, phone, univ, major);
+		FriendUniv flist = new FriendUniv(name, phone, univ, major);
 
 		for (int i = 0; i < friendList.length; i++) {
 
